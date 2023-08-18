@@ -1,0 +1,9 @@
+step-by-step guide
+Login to your management console
+go to s3 bucket
+select create bucket, give a name and a region to host -> create bucket
+upload your files and folders in the bucket
+under properties enable website hosting (give the name of the initial file)
+inside bucket permissions unblock public access
+under bucket permissions enable ACL
+select all the objects of the bucket that will be required for hosting and select actions-> make public using ACL 
